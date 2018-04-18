@@ -6,9 +6,11 @@ void loop() {
   while(i<256){
     i=i+1;
     analogWrite(11,i);
+    delay(20);
   }
   while(i>0){
     i=i-1;
     analogWrite(11,i);
+    delay(20);
   }
 }
