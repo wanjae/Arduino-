@@ -1,0 +1,14 @@
+int i=0;
+void setup() {
+  pinMode(11,OUTPUT);
+}
+void loop() {
+  while(i<256){
+    i=i+1;
+    analogWrite(11,i);
+  }
+  while(i>0){
+    i=i-1;
+    analogWrite(11,i);
+  }
+}
