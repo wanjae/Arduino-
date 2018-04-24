@@ -1,0 +1,25 @@
+int trig = 2;
+int echo = 3;
+int count = 0;
+
+void setup()
+{
+  Serial.begin(57600);
+  pinMode(trig, OUTPUT);
+  pinMode(echo, INPUT);
+}
+
+void loop()
+{
+  digitalWrite(trig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trig, LOW);
+
+  int distance = pulseIn(echo, HIGH) * 17 / 1000;
+  if (distance <= 80)
+  {
+    count = count + 1;
+    Serial.println(count);
+    delay(2000);
+  }
+}
