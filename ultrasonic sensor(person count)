@@ -18,7 +18,7 @@ void loop()
   int distance = pulseIn(echo, HIGH) * 17 / 1000;
   if (distance <= 80)
   {
-    count = count + 1;
+    (    ) = (     ) + 1;
     Serial.println(count);
     delay(2000);
   }
