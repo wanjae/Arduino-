@@ -17,10 +17,10 @@ void loop() {
   
   long duration = pulseIn(echo,HIGH);
   
-  long distance = (duration*340)/2/10000
+  long distance = (duration*340)/2/10000;
 
   Serial.print(distance);
-  Serial.print("cm")
+  Serial.print("cm");
   delay(500);
 }  
   
