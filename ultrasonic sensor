@@ -20,7 +20,7 @@ void loop() {
   long distance = (duration*340)/2/10000;
 
   Serial.print(distance);
-  Serial.print("cm");
+  Serial.println("cm");
   delay(500);
 }  
   
