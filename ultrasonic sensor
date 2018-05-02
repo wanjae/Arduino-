@@ -22,12 +22,4 @@ void loop() {
   Serial.print(distance);
   Serial.println("cm");
   delay(500);
-  
-  int value = map(distance,0,500,255,0);
-  if ( distance > 0 ) {
-    analogWrite(11,value);
-  }
-  else {
-    analogWrite(11,0);
-  }
 }
