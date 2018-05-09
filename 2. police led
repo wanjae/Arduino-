@@ -1,7 +1,6 @@
 int redled =13;
 int blueled =11;
 
-
 void setup() {
   pinMode(led, OUTPUT);
 }
