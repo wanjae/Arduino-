@@ -1,0 +1,21 @@
+void setup() {
+  Serial.begin(9600);
+  pinMode(13,OUTPUT);  
+}
+void loop() {
+  int rate=analogRead(A0);
+  Serial.print("X: ");
+  Serial.print(rate);
+  int maprate=map(rate,60,800,1,3);
+  Serial.print("       maprate= ");
+  Serial.println(maprate);
+  switch(maprate) {
+    case 1:
+    digitalWrite(13,LOW);
+    break;
+
+    case 2:
+    digitalWrite(13,HIGH);
+    break;
+  }
+}
