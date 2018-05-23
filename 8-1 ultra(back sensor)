@@ -1,0 +1,41 @@
+int trig=2;
+int echo=3;
+int sp=11;
+
+void setup() {
+  pinMode(trig,OUTPUT);
+  pinMode(echo,INPUT);
+  pinMode(sp,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {  
+  digitalWrite(trig,LOW); // 0v 출력
+  delayMicroseconds(2); // 0.002밀리초 = 0.000002초
+  digitalWrite(trig,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trig,LOW);
+  
+  long duration = pulseIn(echo,HIGH);
+  
+  long distance = (duration*340)/2/10000;
+
+  Serial.print(distance);
+  Serial.println("cm");
+  delay(500);
+
+  if(distance > 25) {
+    noTone(sp);
+  }
+  if(distance<25 && distance>10) {
+    tone(sp,2093,250);
+    delay(1500);
+  }
+  if(distance<10 && distance>5) {
+    tone(sp,2093,250);
+    delay(400);
+  }
+  else {
+    tone(sp,2093,250);
+  }
+}
