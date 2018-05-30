@@ -1,7 +1,7 @@
 /* 인체감지센서(PIR) 테스트 */
  
 int ledPin = 13; // LED 연결핀
-int inputPin = 2; // 센서 시그널핀
+int inputPin =10; // 센서 시그널핀
 int pirState = LOW; // PIR 초기상태
 int val = 0; // Signal 입력값
  
