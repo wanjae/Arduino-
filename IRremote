@@ -1,0 +1,28 @@
+#include <IRremote.h>
+int input_pin = 2; //입력핀의 설정
+IRrecv irrecv(input_pin); //IRrecv 객체생성
+decode_results signals;  //수신 데이터 저장 구조체
+ 
+void setup()
+{
+    Serial.begin(9600);   //시리얼모니터
+    irrecv.enableIRIn();   //수신시작
+    pinMode(13,OUTPUT);
+}
+ 
+void loop() {
+ //수신되는 내용이 있을 경우만 시리얼모니터에 표시함  
+if (irrecv.decode(&signals)) {
+  
+        //수신 데이터를 16진수로 표시
+        Serial.println(signals.value, HEX);
+        //수신 데이터의 길이를 10진수로 표시
+        Serial.println(signals.bits, DEC);
+        switch(signals.value) {
+          case 0xFF30CF:  digitalWrite(13,HIGH); break;
+          case 0xFF18E7:  digitalWrite(13,LOW); break;
+        }
+       //다음 신호를 받을 수 있도록 한다
+        irrecv.resume();
+    }
+ }
