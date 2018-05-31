@@ -1,0 +1,79 @@
+int r=9;
+
+int g=10;
+
+int b=11;
+
+  int i=0;
+
+void setup() {
+
+  pinMode(7, OUTPUT);
+
+  pinMode(9, OUTPUT);
+
+  pinMode(10, OUTPUT);
+
+  pinMode(11, OUTPUT);
+
+ 
+
+}
+
+ 
+
+void loop() {
+
+ 
+
+ 
+
+  int ss=digitalRead(7);
+
+  if(ss==HIGH) {
+
+     i++;
+
+  switch(i) {
+
+  case 1:
+
+    analogWrite(9, 180);
+
+    analogWrite(10, 0);
+
+    analogWrite(11, 0); //빨
+
+    delay(500);
+
+    break;
+
+      case 2:
+
+    analogWrite(9, 0);
+
+    analogWrite(10, 180);
+
+    analogWrite(11, 0); //빨
+
+    delay(500);
+
+    break;
+
+    case 3:
+
+    analogWrite(9, 0);
+
+    analogWrite(10, 0);
+
+    analogWrite(11, 180); //빨
+
+    delay(500);
+
+    break;
+
+  } 
+
+  }
+
+}
