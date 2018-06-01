@@ -1,7 +1,7 @@
 int r=9;
 int g=10;
 int b=11;
-int i=0;
+//int i=0;
 
 void setup() {
   pinMode(7, OUTPUT);
@@ -12,9 +12,9 @@ void setup() {
 void loop() {
   int ss=digitalRead(7);
   if(ss==HIGH) {
-     i=i+1;
-  switch(i) {
-  case 1:
+    // i=i+1;
+  //switch(i) {
+  //case 1:
     analogWrite(9, 180);
     analogWrite(10, 0);
     analogWrite(11, 0); //빨
