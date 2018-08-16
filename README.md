@@ -1,6 +1,6 @@
 
 <h><b> 공학일반 수업자료 </b></h>
-<hr width="100%" color="gray" size="5"><br>
+<hr width="100%" color="gray" size="5">
 <h><b> 1학기 </b></h><br><br>
 [1. Open Source SW & HW](https://1drv.ms/p/s!AkqY9Qubv2fCcFlDhbYHVsS6E_E)<br>
 [2. Arduino IDE Install](https://1drv.ms/p/s!AkqY9Qubv2fCb4Mz-anhEmUODAg)<br>
