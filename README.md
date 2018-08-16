@@ -1,7 +1,7 @@
 
 <h><b> 공학일반 수업자료 </b></h>
-
-<h><b> 1학기 </b></h><br>
+<hr width="100%" color="gray" size="5"><br>
+<h><b> 1학기 </b></h><br><br>
 [1. Open Source SW & HW](https://1drv.ms/p/s!AkqY9Qubv2fCcFlDhbYHVsS6E_E)<br>
 [2. Arduino IDE Install](https://1drv.ms/p/s!AkqY9Qubv2fCb4Mz-anhEmUODAg)<br>
 [3. blink](https://1drv.ms/p/s!AkqY9Qubv2fCbl36EARYWdu_6gI)<br>
@@ -22,5 +22,5 @@
 <hr width="100%" color="gray" size="5">
 
 
-<h><b> 2학기 </b></h><br>
+<h><b> 2학기 </b></h><br><br>
 [1. 다보스의 선택-4차 산업혁명이 미래다 ](https://drive.google.com/file/d/0B_TKD_C5fEUBbHF6ODJSSmJPb1k/view)<br>
