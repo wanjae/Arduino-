@@ -24,3 +24,4 @@
 
 <h><b> 2학기 </b></h><br>
 [1. 다보스의 선택-4차 산업혁명이 미래다 ](https://drive.google.com/file/d/0B_TKD_C5fEUBbHF6ODJSSmJPb1k/view)<br>
+[1. Library & Servo](https://onedrive.live.com/view.aspx?cid=c267bf9b0bf5984a&page=view&resid=C267BF9B0BF5984A!137&parId=C267BF9B0BF5984A!102&app=PowerPoint)<br>
