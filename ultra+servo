@@ -1,0 +1,29 @@
+#include <Servo.h> //서보관련 라이브러리를 사용하기 위해
+Servo myservo;  // 서보 변수 선언
+const int servoPin = 6; // 서보 핀
+int trig=12;
+int echo=11;
+
+void setup() {
+  pinMode(trig,OUTPUT);
+  pinMode(echo,INPUT);
+  Serial.begin(9600);
+  myservo.attach(servoPin);
+}
+
+void loop() {  
+  digitalWrite(trig,LOW); // 0v 출력
+  delayMicroseconds(2); // 0.002밀리초 = 0.000002초
+  digitalWrite(trig,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trig,LOW);
+  
+  long duration = pulseIn(echo,HIGH);
+  long distance = (duration*340)/2/10000;
+
+  Serial.print(distance);
+  Serial.println("cm");
+  int angle=map(distance,0,30,0,180);
+  myservo.write(angle);
+  delay(50);
+}
