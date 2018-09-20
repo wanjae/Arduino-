@@ -26,5 +26,6 @@
 [1. 다보스의 선택-4차 산업혁명이 미래다 ](https://drive.google.com/file/d/0B_TKD_C5fEUBbHF6ODJSSmJPb1k/view)<br>
 [2. Library & Servo](https://onedrive.live.com/view.aspx?cid=c267bf9b0bf5984a&page=view&resid=C267BF9B0BF5984A!137&parId=C267BF9B0BF5984A!102&app=PowerPoint)<br>
   [* 2-1. Library & Servo](https://github.com/kimwanjae/2018-class-/blob/master/library%2C%20servo)<br>
-
 [3. Bluetooth](https://onedrive.live.com/edit.aspx?cid=c267bf9b0bf5984a&page=view&resid=C267BF9B0BF5984A!141&parId=C267BF9B0BF5984A!102&app=PowerPoint)<br>
+  [* 3-1. changeBluetoothName]
+  [* 3-2. Bluetooth]
