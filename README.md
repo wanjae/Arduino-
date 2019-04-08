@@ -4,7 +4,7 @@
 <hr width="100%" color="gray" size="5">
 
 <h><b> 공학일반 수업자료 </b></h><br>
-[포트폴리오 링크](https://drive.google.com/file/d/1o5ThaGVLAIx64As4eTBA35vCQzlDdd62/view?usp=sharing)<br>
+[포트폴리오 링크](https://docs.google.com/spreadsheets/d/1AhT1xeRG8ZRqnRa6_hmc660pHK3gHZ93yHDtM3Nob_g/edit#gid=0)<br>
 <hr width="100%" color="gray" size="5">
 
 <h><b> 1학기 </b></h><br>
