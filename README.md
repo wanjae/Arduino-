@@ -3,6 +3,10 @@
 [툴 학습자료모음](https://1drv.ms/p/s!AkqY9Qubv2fCgRCYc4gRDhuHrPOs)<br>
 <hr width="100%" color="gray" size="5">
 
+<h><b> 공학일반 수업자료 </b></h><br>
+[포트폴리오 링크](https://drive.google.com/open?id=1o5ThaGVLAIx64As4eTBA35vCQzlDdd62)<br>
+<hr width="100%" color="gray" size="5">
+
 <h><b> 1학기 </b></h><br>
 [1. Open Source SW & HW](https://1drv.ms/p/s!AkqY9Qubv2fCcFlDhbYHVsS6E_E)<br>
 [2. Arduino IDE Install](https://1drv.ms/p/s!AkqY9Qubv2fCb4Mz-anhEmUODAg)<br>
