@@ -14,6 +14,7 @@
   [* 3-1. police signal](https://github.com/kimwanjae/2018-Class/blob/master/2.%20police%20led)<br>
 [4. traffic sign](https://1drv.ms/p/s!AkqY9Qubv2fCcTSxIXI0jyh_t2I)<br>
  [* 4-1. traffic sign](https://github.com/kimwanjae/2018-Class/blob/master/3.%20traffic%20sign)<br>
+ [* 4-1. 강의영상](https://youtu.be/wtXEUqdFJ7w)<br>
 [5. Sensing-Processing-Actuating, Serial Monitor](https://1drv.ms/p/s!AkqY9Qubv2fCcsgEyymnVnNQGzw)<br> 
  [* 5-1. cds_test](https://github.com/kimwanjae/2018-Class/blob/master/4.%20cds_test)<br>
  [* 5-2. cds_led](https://github.com/kimwanjae/2018-Class/blob/master/5.%20cds_if(smart%20led))<br>
